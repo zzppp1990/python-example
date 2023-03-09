@@ -6,6 +6,8 @@ sudo systemctl status redis-server
 
 3. 连接redis  
 redis-cli -a 123456  
+redis-cli -h 172.21.0.44 -p 6379  
+输入密码：auth 123456  
 
 4. import redis失败  
 pip install redis  
