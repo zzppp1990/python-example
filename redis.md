@@ -17,7 +17,10 @@ keys *
 HGETALL hash_key  
 HVALS hash_key  
 列表： LRANGE 'mp4Info' 0 -1  
+删除key: del {key}  
 
+6. 安装redis
+pip install  redis --cert='./snap/core18/2697/usr/lib/python3/dist-packages/certifi/cacert.pem'
 
 参考：  
 [Redis在Ubuntu安装配置](https://zhuanlan.zhihu.com/p/28101275)
