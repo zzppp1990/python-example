@@ -24,3 +24,6 @@ pip install  redis --cert='./snap/core18/2697/usr/lib/python3/dist-packages/cert
 
 参考：  
 [Redis在Ubuntu安装配置](https://zhuanlan.zhihu.com/p/28101275)
+[python中使用redis](https://www.cnblogs.com/goldsunshine/p/15345710.html)
+[python list用法](https://blog.csdn.net/laobai1015/article/details/85126659)
+[python json结构](https://blog.csdn.net/Ven519/article/details/103907225)
