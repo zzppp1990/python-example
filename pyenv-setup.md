@@ -21,7 +21,7 @@ Pyenv安装
 安装依赖
 yum -y install gcc git zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel xz xz-devel
 下载pyenv源代码
-git clone git://github.com/yyuu/pyenv.git ~/.pyenv
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 添加环境变量
 cat << "EOF" >> ~/.bashrc
 export PYENV_ROOT="${HOME}/.pyenv"
